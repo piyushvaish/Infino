@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE9256EE22B8A8F2001D4F29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9256ED22B8A8F2001D4F29 /* AppDelegate.swift */; };
+		EE9256F022B8A8F2001D4F29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9256EF22B8A8F2001D4F29 /* ViewController.swift */; };
+		EE9256F322B8A8F2001D4F29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9256F122B8A8F2001D4F29 /* Main.storyboard */; };
+		EE9256F522B8A913001D4F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9256F422B8A913001D4F29 /* Assets.xcassets */; };
+		EE9256F822B8A913001D4F29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9256F622B8A913001D4F29 /* LaunchScreen.storyboard */; };
+		EE92570322B8A916001D4F29 /* InfinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92570222B8A916001D4F29 /* InfinoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE9256FF22B8A915001D4F29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE9256E222B8A8F2001D4F29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE9256E922B8A8F2001D4F29;
+			remoteInfo = Infino;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE9256EA22B8A8F2001D4F29 /* Infino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Infino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9256ED22B8A8F2001D4F29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE9256EF22B8A8F2001D4F29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE9256F222B8A8F2001D4F29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE9256F422B8A913001D4F29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE9256F722B8A913001D4F29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE9256F922B8A913001D4F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9256FE22B8A915001D4F29 /* InfinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE92570222B8A916001D4F29 /* InfinoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinoTests.swift; sourceTree = "<group>"; };
+		EE92570422B8A916001D4F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE9256E722B8A8F2001D4F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9256FB22B8A915001D4F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE9256E122B8A8F1001D4F29 = {
+			isa = PBXGroup;
+			children = (
+				EE9256EC22B8A8F2001D4F29 /* Infino */,
+				EE92570122B8A915001D4F29 /* InfinoTests */,
+				EE9256EB22B8A8F2001D4F29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE9256EB22B8A8F2001D4F29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE9256EA22B8A8F2001D4F29 /* Infino.app */,
+				EE9256FE22B8A915001D4F29 /* InfinoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE9256EC22B8A8F2001D4F29 /* Infino */ = {
+			isa = PBXGroup;
+			children = (
+				EE9256ED22B8A8F2001D4F29 /* AppDelegate.swift */,
+				EE9256EF22B8A8F2001D4F29 /* ViewController.swift */,
+				EE9256F122B8A8F2001D4F29 /* Main.storyboard */,
+				EE9256F422B8A913001D4F29 /* Assets.xcassets */,
+				EE9256F622B8A913001D4F29 /* LaunchScreen.storyboard */,
+				EE9256F922B8A913001D4F29 /* Info.plist */,
+			);
+			path = Infino;
+			sourceTree = "<group>";
+		};
+		EE92570122B8A915001D4F29 /* InfinoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE92570222B8A916001D4F29 /* InfinoTests.swift */,
+				EE92570422B8A916001D4F29 /* Info.plist */,
+			);
+			path = InfinoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE9256E922B8A8F2001D4F29 /* Infino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE92570722B8A916001D4F29 /* Build configuration list for PBXNativeTarget "Infino" */;
+			buildPhases = (
+				EE9256E622B8A8F2001D4F29 /* Sources */,
+				EE9256E722B8A8F2001D4F29 /* Frameworks */,
+				EE9256E822B8A8F2001D4F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Infino;
+			productName = Infino;
+			productReference = EE9256EA22B8A8F2001D4F29 /* Infino.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE9256FD22B8A915001D4F29 /* InfinoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE92570A22B8A916001D4F29 /* Build configuration list for PBXNativeTarget "InfinoTests" */;
+			buildPhases = (
+				EE9256FA22B8A915001D4F29 /* Sources */,
+				EE9256FB22B8A915001D4F29 /* Frameworks */,
+				EE9256FC22B8A915001D4F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE92570022B8A915001D4F29 /* PBXTargetDependency */,
+			);
+			name = InfinoTests;
+			productName = InfinoTests;
+			productReference = EE9256FE22B8A915001D4F29 /* InfinoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE9256E222B8A8F2001D4F29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Piyush Vaish";
+				TargetAttributes = {
+					EE9256E922B8A8F2001D4F29 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					EE9256FD22B8A915001D4F29 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EE9256E922B8A8F2001D4F29;
+					};
+				};
+			};
+			buildConfigurationList = EE9256E522B8A8F2001D4F29 /* Build configuration list for PBXProject "Infino" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE9256E122B8A8F1001D4F29;
+			productRefGroup = EE9256EB22B8A8F2001D4F29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE9256E922B8A8F2001D4F29 /* Infino */,
+				EE9256FD22B8A915001D4F29 /* InfinoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE9256E822B8A8F2001D4F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9256F822B8A913001D4F29 /* LaunchScreen.storyboard in Resources */,
+				EE9256F522B8A913001D4F29 /* Assets.xcassets in Resources */,
+				EE9256F322B8A8F2001D4F29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9256FC22B8A915001D4F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE9256E622B8A8F2001D4F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9256F022B8A8F2001D4F29 /* ViewController.swift in Sources */,
+				EE9256EE22B8A8F2001D4F29 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9256FA22B8A915001D4F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE92570322B8A916001D4F29 /* InfinoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE92570022B8A915001D4F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE9256E922B8A8F2001D4F29 /* Infino */;
+			targetProxy = EE9256FF22B8A915001D4F29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE9256F122B8A8F2001D4F29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9256F222B8A8F2001D4F29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE9256F622B8A913001D4F29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9256F722B8A913001D4F29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE92570522B8A916001D4F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE92570622B8A916001D4F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE92570822B8A916001D4F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Infino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Piyush.Infino.Infino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE92570922B8A916001D4F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Infino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Piyush.Infino.Infino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE92570B22B8A916001D4F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InfinoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Piyush.Infino.InfinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infino.app/Infino";
+			};
+			name = Debug;
+		};
+		EE92570C22B8A916001D4F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InfinoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Piyush.Infino.InfinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infino.app/Infino";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE9256E522B8A8F2001D4F29 /* Build configuration list for PBXProject "Infino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE92570522B8A916001D4F29 /* Debug */,
+				EE92570622B8A916001D4F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE92570722B8A916001D4F29 /* Build configuration list for PBXNativeTarget "Infino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE92570822B8A916001D4F29 /* Debug */,
+				EE92570922B8A916001D4F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE92570A22B8A916001D4F29 /* Build configuration list for PBXNativeTarget "InfinoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE92570B22B8A916001D4F29 /* Debug */,
+				EE92570C22B8A916001D4F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE9256E222B8A8F2001D4F29 /* Project object */;
+}
