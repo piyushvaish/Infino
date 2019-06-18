@@ -69,7 +69,7 @@
                     <connections>
                         <outlet property="txtFieldPassword" destination="Nrd-0Y-9Yw" id="NWK-9F-X7m"/>
                         <outlet property="txtFieldUsername" destination="Oxr-Yp-dCE" id="al9-kt-rKN"/>
-                        <segue destination="IKG-U1-iyE" kind="show" identifier="showHomePage" id="80R-hl-KxG"/>
+                        <segue destination="IKG-U1-iyE" kind="show" identifier="showHomePage" animates="NO" id="80R-hl-KxG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OMA-ce-18X" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -83,16 +83,23 @@
                     <view key="view" contentMode="scaleToFill" id="K57-la-Zny">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G90-wt-bLl">
+                                <rect key="frame" x="179" y="433" width="56" height="30"/>
+                                <state key="normal" title="SignOut"/>
+                                <connections>
+                                    <action selector="signOutButtonTapped:" destination="IKG-U1-iyE" eventType="touchUpInside" id="wM3-GL-DIG"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="G90-wt-bLl" firstAttribute="centerY" secondItem="K57-la-Zny" secondAttribute="centerY" id="VOV-zG-pB0"/>
+                            <constraint firstItem="G90-wt-bLl" firstAttribute="centerX" secondItem="K57-la-Zny" secondAttribute="centerX" id="pq0-3f-lfg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="hHs-0T-dxj"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="ZMw-Oe-15f">
-                        <barButtonItem key="rightBarButtonItem" title="SignOut" id="2Or-YI-B3w">
-                            <connections>
-                                <action selector="signOutButtonTapped:" destination="IKG-U1-iyE" id="Ept-OZ-Tiw"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Home" id="ZMw-Oe-15f"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0XG-iC-ZlK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

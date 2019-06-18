@@ -13,6 +13,7 @@ import SwiftKeychainWrapper
 class LoginViewController: UIViewController{
     @IBOutlet weak var txtFieldPassword: UITextField!
     @IBOutlet weak var txtFieldUsername: UITextField!
+    let activityView = UIActivityIndicatorView(style: .gray)
     
     @IBAction func btnLoginClicked(_ sender: UIButton) {
         
@@ -23,16 +24,17 @@ class LoginViewController: UIViewController{
                 return
             }
             
+            activityView.center = self.view.center
+            activityView.startAnimating()
+            
+            self.view.addSubview(activityView)
             WebService().postLoginCredentials(url: url, parameters: parameters as! [String:String]) {[unowned self] (loginResponse) in
-                print(loginResponse.id)
-                print(loginResponse.username)
-                print(loginResponse.password)
-                UserDefaults.standard.set(loginResponse.id, forKey: "UserID")
+               
+                UserDefaults.standard.set(loginResponse.id, forKey: ResponseKeys.userID)
                 //let saveSuccessful:Bool = KeychainWrapper.standard.set(loginResponse.id, forKey: "c")
                 //Move to HomePage
-               // let abc = KeychainWrapper.standard.string(forKey: "UserID")
                 DispatchQueue.main.async {
-                   
+                    self.activityView.stopAnimating()
                     self.performSegue(withIdentifier: SegueIdentifiers.showHomePage, sender: nil)
                 }
                 

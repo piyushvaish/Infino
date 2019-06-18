@@ -14,3 +14,6 @@ struct URLConstants{
 struct SegueIdentifiers{
     static let showHomePage = "showHomePage"
 }
+struct ResponseKeys{
+    static let userID = "UserID"
+}
