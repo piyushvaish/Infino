@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import SwiftKeychainWrapper
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let userID:Int? = UserDefaults.standard.value(forKey: "UserID") as? Int
+        if userID != nil{
+           
+//            self.window?.rootViewController?.present(navigationController, animated: false, completion: {() -> Void in
+//                mainMenuVC.tabBarControl = tabBarController
+//            })
+           
+            let homePageViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HomePageViewController") as! HomePageViewController
+            let navigationController = UINavigationController(rootViewController: homePageViewController)
+            self.window?.makeKeyAndVisible()
+            self.window?.rootViewController = navigationController
+            
+        }
         return true
     }
 
